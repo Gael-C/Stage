@@ -1,0 +1,75 @@
+
+#form{
+    margin-left:22%;
+}
+
+fieldset{
+    text-align: center;
+}
+
+legend{
+    margin-bottom: 20px;
+}
+
+.input-group-text{
+    background-color: #cb4278;
+    color: white;
+    font-weight: bold
+}
+
+#submit{
+    margin-top: 25px;
+    margin-left: 42%;
+    background-color:#cb4278;
+    color:white;
+    font-weight: bold
+}
+
+#btn{
+    background-color:#cb4278;
+    color:white;
+    font-weight: bold
+}
+
+#btn-modal{
+    background-color:#cb4278;
+    color:white;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.dropdown-menu{
+    background-color:#cb4278;
+}
+
+.dropdown-item{
+    color: white;
+    font-weight: bold
+}
+
+.modal-header{
+    background-color:#cb4278;
+}
+
+.modal-title{
+    color:white;
+    font-weight: bold
+}
+
+.ajoutDetail{
+    margin-left: 10px;
+}
+
+#name{
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-light:hover{
+    background-color: #cb4278;
+    color: white;
+    font-weight: bold
+}
+
+
+
