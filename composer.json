@@ -1,0 +1,16 @@
+{
+    "name": "gaelcoupe/stage",
+    "description": "Ceci est mon projet de stage de fin de formation de Développeur web et web mobile.",
+    "autoload": {
+        "psr-4": {
+            "Gaelcoupe\\Stage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gaël La Rochelle",
+            "email": "gael_coupe17@outlook.fr"
+        }
+    ],
+    "require": {}
+}
