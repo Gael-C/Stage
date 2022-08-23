@@ -1,7 +1,15 @@
 <?php
-	require_once('../db/pdo.php');
 
-	if ($_POST['password'] !== $_POST['confirmPassword']) {
+namespace back\functions;
+
+use function back\db\connect;
+use PDO;
+
+class Traitement{
+
+	public function traitement(){
+		
+		if ($_POST['password'] !== $_POST['confirmPassword']) {
 		header('Location: form.php');
 	}
 	//On empêche une attaque XSS
@@ -31,6 +39,11 @@
 		$req->bindParam(':role', $role);
 		$req->execute();
 
+	}
 		header("Location: ../../front/home.php");
 	}
 
+
+}
+
+	

@@ -1,5 +1,5 @@
 <?php
-	require_once('../../db/pdo.php');
+	use function back\db\connect;
 
 
 	//On empêche une attaque XSS

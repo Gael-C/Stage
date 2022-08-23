@@ -1,6 +1,7 @@
 <?php
 	session_start();
-	require_once('../../db/pdo.php');
+	
+	use function back\db\connect;
 
 	//Récuperation infos clients
 	$nom = htmlspecialchars($_POST['nom']);
@@ -37,14 +38,6 @@
 	$s_n = htmlspecialchars($_POST['s/n']);
 	$admin = htmlspecialchars($_POST['admin']);
 
-	//Récuperation infos image
-	$img = false;
-	$img_blob = '';
-	$img_taille = 0;
-	$img_type = '';
-	$img_nom = '';
-	$taille_max = 250000;
-	$img = is_uploaded_file($_FILES['file_1']['tmp_name']);
 
 
 	//On teste si le client qu'on essaie d'ajouter existe déjà avec la fonction

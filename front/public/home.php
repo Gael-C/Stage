@@ -1,7 +1,7 @@
 <?php
 	session_start();
 
-	require_once '../../back/db/pdo.php';
+    use function back\db\Connect;
 	require_once '../components/header.php';
 	require_once '../../back/functions/autodisconnect.php';
 

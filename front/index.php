@@ -9,7 +9,7 @@
 <body class="text-center">
 
 <main class="form-signin">
-    <form action="../back/functions/login.php" method="post">
+    <form action="../back/functions/login.php/login()" method="post">
         <h1 class="h3 mb-3 fw-normal">Connexion</h1>
 
         <div class="form-floating">

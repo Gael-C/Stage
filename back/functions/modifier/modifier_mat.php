@@ -1,6 +1,7 @@
 <?php
 	session_start();
-	require_once('../../db/pdo.php');
+
+	use function back\db\connect;
 
 	$id =$_POST['matId'];
 

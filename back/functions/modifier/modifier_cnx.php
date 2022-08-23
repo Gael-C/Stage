@@ -1,7 +1,8 @@
 <?php
 
 	session_start();
-	require_once('../../db/pdo.php');
+
+	use function back\db\connect;
 
 	//On récupère l'Id de connexion...
 	$id = $_POST['cnxId'];
