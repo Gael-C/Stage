@@ -113,7 +113,7 @@
 				$_SESSION['emptyPost'] = "Vous devez renseigner au moins un titre, un contenu et une photo";
 
 				header("Location: ../../../front/public/details.php?idClient=$idClient");
-				require_once ('../../../front/components/footer.php');
+				require_once('../../../front/components/footer.php');
 				require_once('../../db/close.php');
 			}
 		}

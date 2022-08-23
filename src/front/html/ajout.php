@@ -29,11 +29,11 @@
 				<?php endif;?>
             </ul>
         </div>
-        <a id="btn" href="../../back/functions/disconnect.php" style="margin-left: 10px;" class="btn">Déconnexion</a>
+        <a id="btn" href="../../../back/functions/disconnect.php" style="margin-left: 10px;" class="btn">Déconnexion</a>
     </div>
 </nav>
 
-<form enctype="multipart/form-data" method="post" action="../../back/functions/ajout/ajout.php" >
+<form enctype="multipart/form-data" method="post" action="../../../back/functions/ajout/ajout.php" >
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">

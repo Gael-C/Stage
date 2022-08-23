@@ -5,9 +5,6 @@
 	require_once '../components/header.php';
 	require_once '../../back/functions/autodisconnect.php';
 
-	if (!isset($_SESSION["login"])) {
-		header('Location: index.php');
-	}
 
 		$sql = connect()->prepare("SELECT client_nom,client_id, ent_nom
         FROM CR_Clients 
@@ -34,7 +31,7 @@
 				<?php endif;?>
             </ul>
         </div>
-        <a id="btn" href="../../back/functions/disconnect.php" style="margin-left: 10px;" class="btn">Déconnexion</a>
+        <a id="btn" href="../../../back/functions/disconnect.php" style="margin-left: 10px;" class="btn">Déconnexion</a>
     </div>
 </nav>
 <body>

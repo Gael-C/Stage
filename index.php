@@ -1,0 +1,1 @@
+<?php include_once('src/front/html/home.php');

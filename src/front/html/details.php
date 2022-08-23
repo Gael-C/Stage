@@ -65,7 +65,7 @@
                      aria-labelledby="ModalCnxLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
-                            <?php require_once ('modal/modalAjoutCnx.php')?>
+                            <?php require_once('modal/modalAjoutCnx.php') ?>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                      aria-labelledby="ModalMatLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
-                            <?php require_once ('modal/modalAjoutMat.php')?>
+                            <?php require_once('modal/modalAjoutMat.php') ?>
                         </div>
                     </div>
                 </div>
@@ -84,11 +84,11 @@
                      aria-labelledby="ModalImgLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
-                           <?php require_once ('modal/modalAjoutImg.php')?>
+                           <?php require_once('modal/modalAjoutImg.php') ?>
                         </div>
                     </div>
                 </div>
-            <a id="btn" style="margin-left: 10px" href="../../back/functions/disconnect.php" class="btn">Déconnexion</a>
+            <a id="btn" style="margin-left: 10px" href="../../../back/functions/disconnect.php" class="btn">Déconnexion</a>
         </div>
 </nav>
 
@@ -150,7 +150,7 @@
             Modifier
         </button>
         <a onclick="return(confirm('Supprimer définitivement ?'))" class="btn btn-outline-danger"
-           href="../../back/functions/supprimer.php?client_id=<?= $client['client_id'] ?>">Supprimer</a>
+           href="../../../back/functions/supprimer.php?client_id=<?= $client['client_id'] ?>">Supprimer</a>
 
 	<?php endif; ?>
     <!-- Modal -->
@@ -158,7 +158,7 @@
          aria-labelledby="Modal<?= $client['client_id'] ?>Label" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-               <?php require_once ('modal/modalModifClient.php')?>
+               <?php require_once('modal/modalModifClient.php') ?>
             </div>
         </div>
     </div>
